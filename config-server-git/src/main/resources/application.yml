@@ -2,6 +2,7 @@
 server:
   port: 8888
 
+
 spring:
   cloud:
     config:
@@ -17,3 +18,9 @@ spring:
               uri: https://github.com/razvanbugariu/spring-cloudconfig-perf
               search-paths:
                 - 'station*'
+security:
+  basic:
+    enabled: false
+  user:
+    name: bugariu
+    password: bugariu
