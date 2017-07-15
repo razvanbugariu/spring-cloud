@@ -1,4 +1,4 @@
-package com.rbu.config.server.configserver;
+package com.rbu.config.server.git.configservergit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class ConfigServerApplication {
+public class ConfigServerGitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigServerApplication.class, args);
+		SpringApplication.run(ConfigServerGitApplication.class, args);
 	}
 }
