@@ -19,8 +19,6 @@ spring:
               search-paths:
                 - 'station*'
 security:
-  basic:
-    enabled: false
-  user:
-    name: bugariu
-    password: bugariu
+    user:
+      name: bugariu
+      password: bugariu
